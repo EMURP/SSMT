@@ -43,7 +43,7 @@ class ServiceClass(object):
         Input: Instance of the class
         Output: Returns a list of all project names in active and terminating state
         """
-        projects_api = self.oapi_client.resources.get(kind='Project', api_version='v1')
+        projects_api = self.oapi_client.resources.get(kind='Project', api_version='project.openshift.io/v1')
         project_list = projects_api.get()
         return [project.metadata.name for project in project_list.items]
     

@@ -63,12 +63,12 @@ Try to access the web application URL using the following commands
 Local Development
 
 ```bash
-http://0.0.0.0:9000/push_to_object_store/
+http://0.0.0.0:9000/push_to_object_store
 # Purpose : Retrieve OpenShift Cluster resource metics and push it to OpenStack Object Store 
 # Returns : A list of CSV files pushed to the OpenStack Object Store
 
 
-http://0.0.0.0:8000/get_cumulative_information/
+http://0.0.0.0:8000/get_cumulative_information
 # Purpose: Retrieve Cumulative infomation like OpenShift Nodes, Pods, PVC's, Projects etc.
 # Returns: JSON Response with names of all Nodes, Pods, PVC's, PV's, Projects in an OpenShift cluster
 

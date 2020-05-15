@@ -23,11 +23,9 @@ conn = boto.connect_s3(
         )
 
 bucket = conn.get_bucket('Automated-Report')
-print(bucket)
 
 for i, val in enumerate(argument_list): 
     val = val 
-    print(val)
     key_name = val 
     path = 'OpenShift/'
     print(key_name)
