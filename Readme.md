@@ -7,7 +7,27 @@ SSMT is python flask web application to get all the OpenShift resource metrics, 
 
 ## Requirements
 
-Should have python virtual environment [setup](https://www.tutorialspoint.com/python-virtual-environment)
+Should have python virtual environment [setup](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+
+Installing Virtualenv
+
+MacOs and Linux
+python3 -m pip install --user virtualenv
+
+Creating a Virtual Environment 
+
+MacOs and Linux
+python3 -m venv env
+
+Activating Virtual Environment
+source env/bin/activate
+
+You can confirm you’re in the virtual environment by checking the location of your Python interpreter, it should point to the env directory.
+
+On macOS and Linux:
+
+which python
+.../env/bin/python
 
 ##### Local Environment 
 
@@ -18,7 +38,6 @@ Should be able to access OpenShift cluster using openshift-client
 ```
 example: oc get pods
 ```
-
 
 ##### OpenShift Cluster
 
