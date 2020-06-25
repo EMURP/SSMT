@@ -1,0 +1,151 @@
+[33mcommit f0dab060a4c4a4ccb159715ac90475e9c2171d3d[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-structuring[m[33m, [m[1;31morigin/feature-structuring[m[33m)[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Wed Jun 24 23:22:04 2020 -0400
+
+    Removed __pycache__
+
+[33mcommit 5ff6be4c15e25e15610811babab82fad2fb49299[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Wed Jun 24 22:51:38 2020 -0400
+
+    addition of Unit Tests & helper folder
+
+[33mcommit 30ee946ab49c11b4ef5f2dd59b785b94018ec762[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mfeature-4[m[33m)[m
+Merge: a932761 b20df8a
+Author: Gagan Kumar <47332731+gagansk@users.noreply.github.com>
+Date:   Wed Jun 24 15:42:08 2020 -0400
+
+    Merge pull request #11 from dburugupalli/feature-1
+    
+    metering-configuration-role-binding.yaml file
+
+[33mcommit b20df8a61713d25c799958fff2590135e05c364d[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Tue Jun 23 17:09:02 2020 -0400
+
+    SSMT-metering-steps
+
+[33mcommit ff9d904aad452195faca3ebed4931ff985031078[m
+Author: Dinakara Sai Santosh Burugupalli <53957775+dburugupalli@users.noreply.github.com>
+Date:   Thu Jun 18 20:31:49 2020 -0400
+
+    metering-configuration-auth-role-binding.yaml file
+    
+    This file contains metering-configuration-auth-role-binding, this will help the users with four roles
+    ```bashreport-exporter
+    reporting-admin
+    reporting-viewer
+    metering-admin
+    metering-viewer```
+
+[33mcommit a932761cfeb81a046289601e5cd5e667ea5c3c04[m
+Merge: 0637ecb cddc546
+Author: Gagan Kumar <47332731+gagansk@users.noreply.github.com>
+Date:   Wed Jun 17 14:32:40 2020 -0400
+
+    Merge pull request #8 from dburugupalli/feature-3
+    
+    list_runtime of the projects. project page flask api url
+
+[33mcommit cddc5464ff4c125ffa58033143c2c7fd4958fae0[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Mon Jun 15 17:23:25 2020 -0400
+
+    list
+
+[33mcommit 0637ecbdb930098db2cabbdf6885ebe9c0d708ab[m
+Merge: 7c9bf38 66816f6
+Author: Gagan Kumar <47332731+gagansk@users.noreply.github.com>
+Date:   Sun Jun 14 09:06:32 2020 -0400
+
+    Merge pull request #7 from dburugupalli/feature-1
+    
+    Detailed Steps configure CRC for Reporting Backend
+
+[33mcommit 7c9bf382baf984a6a9617f4abe44fe801935d625[m
+Merge: 16e82dc 165d079
+Author: Gagan Kumar <47332731+gagansk@users.noreply.github.com>
+Date:   Sun Jun 14 09:05:48 2020 -0400
+
+    Merge pull request #5 from dburugupalli/feature2
+    
+    Enabled CORS and time fix
+
+[33mcommit 66816f6ec303f96f142e266dcdc7d533effb7ad6[m
+Author: Dinakara Sai Santosh Burugupalli <53957775+dburugupalli@users.noreply.github.com>
+Date:   Sat Jun 13 18:52:39 2020 -0400
+
+    Add Readme.md with report, reportquery commands
+
+[33mcommit 92f92e6aa1c3949cab51a346042d0588ded6af80[m
+Author: Dinakara Sai Santosh Burugupalli <53957775+dburugupalli@users.noreply.github.com>
+Date:   Fri Jun 12 20:30:18 2020 -0400
+
+    Readme.md file for installing CRC
+    
+    This document will help in installing Code Ready Container,
+    Set the CPUS and Ram for Code Ready Container. Also, help in debugging some of the common OpenShift issues.
+    
+    Update Readme.md
+    
+    Container detailed steps to start the python app server.
+    
+    Update Readme.md
+    
+    Updated the home page of Documentation with installing_crc.md Hyper link.
+    
+    Updated readme.md with python packages
+
+[33mcommit 165d0798f45d0801b895b1fc8533a8cb7ffd2452[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Tue Jun 9 13:32:24 2020 -0400
+
+    Enabled CORS and time fix
+
+[33mcommit 16e82dc058218d28ba5a1926350962daad463ad8[m
+Merge: 1d1e39e f6b5ae8
+Author: Gagan Kumar <47332731+gagansk@users.noreply.github.com>
+Date:   Tue Jun 2 15:13:40 2020 -0400
+
+    Merge pull request #4 from dburugupalli/feature-2
+    
+    Flask end point and OpenShift YAML files to list all projects
+
+[33mcommit 1d1e39eaff0cad694040227d95ee679562bacbe7[m
+Merge: 32456ae 6f2b571
+Author: Gagan Kumar <47332731+gagansk@users.noreply.github.com>
+Date:   Mon Jun 1 15:29:31 2020 -0400
+
+    Merge pull request #3 from dburugupalli/feature-1
+    
+    OpenShift Metering YAML templates and readme.md file
+
+[33mcommit f6b5ae8ef666c39008f8d509613c0be48ed98ffb[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Fri May 29 21:49:10 2020 -0400
+
+    Flask REST Endpoint to list projects
+    
+    OpenShift templates to list-all-projects-v1
+    
+    Updated config.sh, OpenShift Templates
+
+[33mcommit 6f2b57164713ced09a980dc89cc970b83660224b[m
+Author: dburugupalli <burugupalli.d@husky.neu.edu>
+Date:   Tue May 26 18:34:27 2020 -0400
+
+    Metering-report-templates and readme
+    
+    Updated Readme with links and
+    
+    Font changes to readme.md
+    
+    Changes to Openshift metering templates
+    
+    Readme.md with Updated links
+
+[33mcommit 32456ae8000db1f193a31eba1902017aca1f1672[m
+Author: Gagan Kumar <gaganskumar3@gmail.com>
+Date:   Wed May 6 16:35:23 2020 -0400
+
+    Git Test
